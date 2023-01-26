@@ -26,3 +26,8 @@ class Post extends Model
         
     ];
 }
+?>
+ <div>   
+        <?php print_r("Se cargaron los datos en la base de datos")?>
+        <a class="btn btn-success" href="http://127.0.0.1:8000/home">Regresar</a></div>
+        

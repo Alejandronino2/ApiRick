@@ -31,6 +31,7 @@ class PostController extends Controller
         );
     }
     dd("Data Strored");
+    
     }
 
 }

@@ -11,7 +11,8 @@
             <br>
         </div>
         <div>
-        <a class="btn btn-success" href="{{route("store-data")}}">Guardar en la base de datos</a></div>
+        <a class="btn btn-success" href="http://127.0.0.1:8000/store-data">Guardar en la base de datos</a>
+        <a class="btn btn-warning" href="#">Editar</a></div>
         
         <div><br></div>
         @foreach($usuarioArray['results'] as $usuario)
